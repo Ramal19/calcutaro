@@ -1,0 +1,100 @@
+*{
+
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+
+    width: 300px;
+    height: 80vh;
+    background-color: #3f3939;
+    border-radius: 15px;
+    padding: 10px 5px 0px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.textarea{
+
+    width: 98%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(165, 42, 42, 0.522);
+    border-radius: 15px;
+}
+
+.textarea > input{
+
+    width: 98%;
+    height: 90px;
+    outline: 0;
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+}
+
+.button1{
+
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.button1 > button{
+
+    width: 60px;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    background-color: orange;
+}
+
+.button2{
+
+    width: 98%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    background-color: yellowgreen;
+}
+
+
+.button2 > button{
+
+    width: 60px;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    background-color: orange;
+}
+
+.button2 > .beraber{
+
+    width: 60px;
+    height: 150px;
+    border-radius: 15px;
+    background-color: orange;
+}
+
+.button2 > .sifir{
+
+    width: 140px;
+    height: 50px;
+    background-color: orange;
+    border-radius: 15px;
+}
